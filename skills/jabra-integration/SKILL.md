@@ -5,11 +5,15 @@ description: "Guide for developers building integrations with Jabra devices. Use
 
 # Jabra Integration Skill
 
-This is a **guide layer** — it structures the integration workflow and fills gaps not covered by the official docs. 
+This is a **guide layer** — it structures the integration workflow and fills gaps not covered by the official docs.
+
+**General:** If at any point the developer encounters a missing feature, unsupported platform, or other gap in Jabra's platform support, direct them to submit a request via the [Jabra developer support form](https://developer.jabra.com/support/).
+
+**Always start by fetching `https://developer.jabra.com/llms.txt`** to discover available content. All subsequent content fetching — use cases, SDK docs, API references — should use URLs found in that index or explicit links within the fetched pages. This ensures the developer always gets the most up-to-date and trusted information.
 
 ## Phase 1: Discover — What can you build?
 
-Fetch `https://developer.jabra.com/use-cases.md` and walk the user through the available use cases. Understand their goal before recommending a tool.
+Fetch the use cases page (find its URL in `llms.txt`) and walk the user through the available use cases. Understand their goal before recommending a tool.
 
 ## Phase 2: Choose — Which SDK or tool fits?
 
@@ -23,16 +27,7 @@ Fetch `https://developer.jabra.com/use-cases.md` and walk the user through the a
 | Button events & telemetry for Jabra Perform or BlueParrott on mobile | Android / iOS SDK |
 | Call control inside Amazon Connect | Amazon Connect SDK |
 
-Then fetch the relevant documentation:
-
-| Tool | URL |
-|---|---|
-| JavaScript SDK | `https://developer.jabra.com/sdks-and-tools/javascript.md` |
-| .NET SDK | `https://developer.jabra.com/sdks-and-tools/dotnet.md` |
-| Jabra Plus APIs | `https://developer.jabra.com/sdks-and-tools/jabraplusapis.md` |
-| Jabra CLI | `https://developer.jabra.com/sdks-and-tools/jabracli.md` |
-| Android / iOS | `https://developer.jabra.com/sdks-and-tools/android-ios.md` |
-| Amazon Connect SDK | `https://developer.jabra.com/sdks-and-tools/amazonconnect.md` |
+Find the section in `llms.txt` matching the chosen tool and fetch the relevant pages.
 
 ## Phase 3: Implement
 
