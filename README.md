@@ -1,4 +1,5 @@
-# AI agent tools for Jabra integration development
+# Jabra AI Toolkit
+AI agent tools for Jabra integration development
 
 See [developer.jabra.com](https://developer.jabra.com) for more information about Jabra integration development.
 

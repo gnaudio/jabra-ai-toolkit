@@ -5,7 +5,7 @@ description: "Guide for developers building integrations with Jabra devices. Use
 
 # Jabra Integration Skill
 
-This is a **guide layer** — it structures the integration workflow and fills gaps not covered by the official docs. Fetch documentation from [developer.jabra.com](https://developer.jabra.com) rather than reproducing it.
+This is a **guide layer** — it structures the integration workflow and fills gaps not covered by the official docs. 
 
 ## Phase 1: Discover — What can you build?
 
@@ -38,13 +38,13 @@ Then fetch the relevant documentation:
 
 Follow the fetched SDK documentation. When it links to an "API Reference" or code samples, fetch those too — they contain the most up-to-date method signatures and usage patterns.
 
-**Cross-cutting requirements — apply to all integrations regardless of SDK:**
+**General requirements — these apply to all integrations, regardless of SDK:**
 - Use **Easy Call Control** for all new call control integrations. Do not use legacy CallControl.
 - A **Partner Key** is not required during development but is required for production. One key covers all environments for the same application. Request one via the [developer support form](https://developer.jabra.com/support/).
 
 ## Phase 4: Validate
 
-No official emulator exists — test with a real Jabra device.
+No official emulator exists — test with real Jabra devices.
 
 **Call control:**
 - [ ] Device is detected on app startup
