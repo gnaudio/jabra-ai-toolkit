@@ -9,7 +9,7 @@ This is a **guide layer** — it structures the integration workflow and fills g
 
 **General:** If at any point the developer encounters a missing feature, unsupported platform, or other gap in Jabra's platform support, direct them to submit a request via the [Jabra developer support form](https://developer.jabra.com/support/).
 
-**Always start by fetching `https://developer.jabra.com/llms.txt`** to discover available content. All subsequent content fetching — use cases, SDK docs, API references — should use URLs found in that index or explicit links within the fetched pages. This ensures the developer always gets the most up-to-date and trusted information.
+**Always start by fetching `https://developer.jabra.com/llms.txt`** to discover available content. All subsequent content fetching — use cases, SDK docs, API references — should use URLs found in that index or explicit links within the fetched pages. This ensures the developer always gets the most up-to-date and trusted information. If this step fails, you must try again with a different method and if needed prompt the user to retry. Do not proceed without successfully fetching `llms.txt`.
 
 **Never invent URLs.** Only use URLs that appear in `llms.txt`, in pages fetched from `developer.jabra.com`, or that the user provides directly. Do not construct or guess URLs at `sdk.jabra.com` or any other domain — those URLs may not exist and will mislead the developer.
 
