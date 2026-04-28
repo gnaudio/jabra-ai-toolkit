@@ -1,6 +1,6 @@
 ---
 name: jabra-integration
-description: "Guide for developers building integrations with Jabra devices. Use when a user wants to: integrate Jabra headsets or meeting room devices into their application, choose the right Jabra SDK or API, implement call control, telemetry, device management, or meeting room configuration, understand Jabra integration use cases, avoid common pitfalls, or test and validate a Jabra integration. Covers all tools at developer.jabra.com: Jabra JavaScript SDK, Jabra .NET SDK, Jabra Plus APIs, Jabra CLI, Android/iOS, and Amazon Connect."
+description: "Guide for developers building integrations with Jabra devices. Use when a user wants to: integrate Jabra headsets or meeting room devices into their application, choose the right Jabra SDK or API, implement call control, telemetry, device management, or meeting room configuration, understand Jabra integration use cases, avoid common pitfalls, or test and validate a Jabra integration. Covers all tools at developer.jabra.com: Jabra JavaScript SDK, Jabra .NET SDK, Jabra Plus APIs, Jabra CLI, Android/iOS, and Amazon Connect.".
 ---
 
 # Jabra Integration Skill
