@@ -11,6 +11,8 @@ This is a **guide layer** — it structures the integration workflow and fills g
 
 **Always start by fetching `https://developer.jabra.com/llms.txt`** to discover available content. All subsequent content fetching — use cases, SDK docs, API references — should use URLs found in that index or explicit links within the fetched pages. This ensures the developer always gets the most up-to-date and trusted information.
 
+**Never invent URLs.** Only use URLs that appear in `llms.txt`, in pages fetched from `developer.jabra.com`, or that the user provides directly. Do not construct or guess URLs at `sdk.jabra.com` or any other domain — those URLs may not exist and will mislead the developer.
+
 ## Phase 1: Discover — What can you build?
 
 Fetch the use cases page (find its URL in `llms.txt`) and walk the user through the available use cases. Understand their goal before recommending a tool.
